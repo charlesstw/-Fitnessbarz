@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76C9C37C1DE196CD00D45E94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C37B1DE196CD00D45E94 /* main.m */; };
+		76C9C37F1DE196CD00D45E94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C37E1DE196CD00D45E94 /* AppDelegate.m */; };
+		76C9C3821DE196CD00D45E94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C3811DE196CD00D45E94 /* ViewController.m */; };
+		76C9C3851DE196CD00D45E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C9C3831DE196CD00D45E94 /* Main.storyboard */; };
+		76C9C3881DE196CD00D45E94 /* Fitnessbarz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C3861DE196CD00D45E94 /* Fitnessbarz.xcdatamodeld */; };
+		76C9C38A1DE196CD00D45E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C9C3891DE196CD00D45E94 /* Assets.xcassets */; };
+		76C9C38D1DE196CD00D45E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C9C38B1DE196CD00D45E94 /* LaunchScreen.storyboard */; };
+		76C9C3981DE196CD00D45E94 /* FitnessbarzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C3971DE196CD00D45E94 /* FitnessbarzTests.m */; };
+		76C9C3A31DE196CD00D45E94 /* FitnessbarzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C3A21DE196CD00D45E94 /* FitnessbarzUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76C9C3941DE196CD00D45E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C9C36F1DE196CC00D45E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C9C3761DE196CC00D45E94;
+			remoteInfo = Fitnessbarz;
+		};
+		76C9C39F1DE196CD00D45E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C9C36F1DE196CC00D45E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C9C3761DE196CC00D45E94;
+			remoteInfo = Fitnessbarz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76C9C3771DE196CD00D45E94 /* Fitnessbarz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitnessbarz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C9C37B1DE196CD00D45E94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76C9C37D1DE196CD00D45E94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76C9C37E1DE196CD00D45E94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76C9C3801DE196CD00D45E94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76C9C3811DE196CD00D45E94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76C9C3841DE196CD00D45E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76C9C3871DE196CD00D45E94 /* Fitnessbarz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitnessbarz.xcdatamodel; sourceTree = "<group>"; };
+		76C9C3891DE196CD00D45E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76C9C38C1DE196CD00D45E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76C9C38E1DE196CD00D45E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C9C3931DE196CD00D45E94 /* FitnessbarzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessbarzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C9C3971DE196CD00D45E94 /* FitnessbarzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessbarzTests.m; sourceTree = "<group>"; };
+		76C9C3991DE196CD00D45E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C9C39E1DE196CD00D45E94 /* FitnessbarzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessbarzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C9C3A21DE196CD00D45E94 /* FitnessbarzUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessbarzUITests.m; sourceTree = "<group>"; };
+		76C9C3A41DE196CD00D45E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C9C3741DE196CC00D45E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C9C3901DE196CD00D45E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C9C39B1DE196CD00D45E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C9C36E1DE196CC00D45E94 = {
+			isa = PBXGroup;
+			children = (
+				76C9C3791DE196CD00D45E94 /* Fitnessbarz */,
+				76C9C3961DE196CD00D45E94 /* FitnessbarzTests */,
+				76C9C3A11DE196CD00D45E94 /* FitnessbarzUITests */,
+				76C9C3781DE196CD00D45E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76C9C3781DE196CD00D45E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C9C3771DE196CD00D45E94 /* Fitnessbarz.app */,
+				76C9C3931DE196CD00D45E94 /* FitnessbarzTests.xctest */,
+				76C9C39E1DE196CD00D45E94 /* FitnessbarzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76C9C3791DE196CD00D45E94 /* Fitnessbarz */ = {
+			isa = PBXGroup;
+			children = (
+				76C9C37D1DE196CD00D45E94 /* AppDelegate.h */,
+				76C9C37E1DE196CD00D45E94 /* AppDelegate.m */,
+				76C9C3801DE196CD00D45E94 /* ViewController.h */,
+				76C9C3811DE196CD00D45E94 /* ViewController.m */,
+				76C9C3831DE196CD00D45E94 /* Main.storyboard */,
+				76C9C3891DE196CD00D45E94 /* Assets.xcassets */,
+				76C9C38B1DE196CD00D45E94 /* LaunchScreen.storyboard */,
+				76C9C38E1DE196CD00D45E94 /* Info.plist */,
+				76C9C3861DE196CD00D45E94 /* Fitnessbarz.xcdatamodeld */,
+				76C9C37A1DE196CD00D45E94 /* Supporting Files */,
+			);
+			path = Fitnessbarz;
+			sourceTree = "<group>";
+		};
+		76C9C37A1DE196CD00D45E94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C9C37B1DE196CD00D45E94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76C9C3961DE196CD00D45E94 /* FitnessbarzTests */ = {
+			isa = PBXGroup;
+			children = (
+				76C9C3971DE196CD00D45E94 /* FitnessbarzTests.m */,
+				76C9C3991DE196CD00D45E94 /* Info.plist */,
+			);
+			path = FitnessbarzTests;
+			sourceTree = "<group>";
+		};
+		76C9C3A11DE196CD00D45E94 /* FitnessbarzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76C9C3A21DE196CD00D45E94 /* FitnessbarzUITests.m */,
+				76C9C3A41DE196CD00D45E94 /* Info.plist */,
+			);
+			path = FitnessbarzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76C9C3761DE196CC00D45E94 /* Fitnessbarz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C9C3A71DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "Fitnessbarz" */;
+			buildPhases = (
+				76C9C3731DE196CC00D45E94 /* Sources */,
+				76C9C3741DE196CC00D45E94 /* Frameworks */,
+				76C9C3751DE196CC00D45E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitnessbarz;
+			productName = Fitnessbarz;
+			productReference = 76C9C3771DE196CD00D45E94 /* Fitnessbarz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76C9C3921DE196CD00D45E94 /* FitnessbarzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C9C3AA1DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "FitnessbarzTests" */;
+			buildPhases = (
+				76C9C38F1DE196CD00D45E94 /* Sources */,
+				76C9C3901DE196CD00D45E94 /* Frameworks */,
+				76C9C3911DE196CD00D45E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76C9C3951DE196CD00D45E94 /* PBXTargetDependency */,
+			);
+			name = FitnessbarzTests;
+			productName = FitnessbarzTests;
+			productReference = 76C9C3931DE196CD00D45E94 /* FitnessbarzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76C9C39D1DE196CD00D45E94 /* FitnessbarzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C9C3AD1DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "FitnessbarzUITests" */;
+			buildPhases = (
+				76C9C39A1DE196CD00D45E94 /* Sources */,
+				76C9C39B1DE196CD00D45E94 /* Frameworks */,
+				76C9C39C1DE196CD00D45E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76C9C3A01DE196CD00D45E94 /* PBXTargetDependency */,
+			);
+			name = FitnessbarzUITests;
+			productName = FitnessbarzUITests;
+			productReference = 76C9C39E1DE196CD00D45E94 /* FitnessbarzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76C9C36F1DE196CC00D45E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Fitnessbarz;
+				TargetAttributes = {
+					76C9C3761DE196CC00D45E94 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RJYZ49S9JJ;
+						ProvisioningStyle = Manual;
+					};
+					76C9C3921DE196CD00D45E94 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7T8HSHZPQ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76C9C3761DE196CC00D45E94;
+					};
+					76C9C39D1DE196CD00D45E94 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7T8HSHZPQ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76C9C3761DE196CC00D45E94;
+					};
+				};
+			};
+			buildConfigurationList = 76C9C3721DE196CC00D45E94 /* Build configuration list for PBXProject "Fitnessbarz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76C9C36E1DE196CC00D45E94;
+			productRefGroup = 76C9C3781DE196CD00D45E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76C9C3761DE196CC00D45E94 /* Fitnessbarz */,
+				76C9C3921DE196CD00D45E94 /* FitnessbarzTests */,
+				76C9C39D1DE196CD00D45E94 /* FitnessbarzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76C9C3751DE196CC00D45E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C9C38D1DE196CD00D45E94 /* LaunchScreen.storyboard in Resources */,
+				76C9C38A1DE196CD00D45E94 /* Assets.xcassets in Resources */,
+				76C9C3851DE196CD00D45E94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C9C3911DE196CD00D45E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C9C39C1DE196CD00D45E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C9C3731DE196CC00D45E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C9C3821DE196CD00D45E94 /* ViewController.m in Sources */,
+				76C9C37F1DE196CD00D45E94 /* AppDelegate.m in Sources */,
+				76C9C37C1DE196CD00D45E94 /* main.m in Sources */,
+				76C9C3881DE196CD00D45E94 /* Fitnessbarz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C9C38F1DE196CD00D45E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C9C3981DE196CD00D45E94 /* FitnessbarzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C9C39A1DE196CD00D45E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C9C3A31DE196CD00D45E94 /* FitnessbarzUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76C9C3951DE196CD00D45E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76C9C3761DE196CC00D45E94 /* Fitnessbarz */;
+			targetProxy = 76C9C3941DE196CD00D45E94 /* PBXContainerItemProxy */;
+		};
+		76C9C3A01DE196CD00D45E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76C9C3761DE196CC00D45E94 /* Fitnessbarz */;
+			targetProxy = 76C9C39F1DE196CD00D45E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76C9C3831DE196CD00D45E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C9C3841DE196CD00D45E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76C9C38B1DE196CD00D45E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C9C38C1DE196CD00D45E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76C9C3A51DE196CD00D45E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76C9C3A61DE196CD00D45E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76C9C3A81DE196CD00D45E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RJYZ49S9JJ;
+				INFOPLIST_FILE = Fitnessbarz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.Fitnessbarz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66e97fca-5bd7-47d2-b12d-3f5b178f1d17";
+				PROVISIONING_PROFILE_SPECIFIER = CharlesDevAll;
+			};
+			name = Debug;
+		};
+		76C9C3A91DE196CD00D45E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Fitnessbarz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Charles.Fitnessbarz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76C9C3AB1DE196CD00D45E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				INFOPLIST_FILE = FitnessbarzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-com.Fitnessbarz.FitnessbarzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitnessbarz.app/Fitnessbarz";
+			};
+			name = Debug;
+		};
+		76C9C3AC1DE196CD00D45E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				INFOPLIST_FILE = FitnessbarzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-com.Fitnessbarz.FitnessbarzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitnessbarz.app/Fitnessbarz";
+			};
+			name = Release;
+		};
+		76C9C3AE1DE196CD00D45E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				INFOPLIST_FILE = FitnessbarzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-com.Fitnessbarz.FitnessbarzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fitnessbarz;
+			};
+			name = Debug;
+		};
+		76C9C3AF1DE196CD00D45E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7T8HSHZPQ4;
+				INFOPLIST_FILE = FitnessbarzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-com.Fitnessbarz.FitnessbarzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fitnessbarz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76C9C3721DE196CC00D45E94 /* Build configuration list for PBXProject "Fitnessbarz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C9C3A51DE196CD00D45E94 /* Debug */,
+				76C9C3A61DE196CD00D45E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C9C3A71DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "Fitnessbarz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C9C3A81DE196CD00D45E94 /* Debug */,
+				76C9C3A91DE196CD00D45E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76C9C3AA1DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "FitnessbarzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C9C3AB1DE196CD00D45E94 /* Debug */,
+				76C9C3AC1DE196CD00D45E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76C9C3AD1DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "FitnessbarzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C9C3AE1DE196CD00D45E94 /* Debug */,
+				76C9C3AF1DE196CD00D45E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76C9C3861DE196CD00D45E94 /* Fitnessbarz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76C9C3871DE196CD00D45E94 /* Fitnessbarz.xcdatamodel */,
+			);
+			currentVersion = 76C9C3871DE196CD00D45E94 /* Fitnessbarz.xcdatamodel */;
+			path = Fitnessbarz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76C9C36F1DE196CC00D45E94 /* Project object */;
+}
