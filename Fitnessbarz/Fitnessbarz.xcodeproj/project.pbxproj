@@ -16,6 +16,8 @@
 		76C9C38D1DE196CD00D45E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C9C38B1DE196CD00D45E94 /* LaunchScreen.storyboard */; };
 		76C9C3981DE196CD00D45E94 /* FitnessbarzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C3971DE196CD00D45E94 /* FitnessbarzTests.m */; };
 		76C9C3A31DE196CD00D45E94 /* FitnessbarzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C9C3A21DE196CD00D45E94 /* FitnessbarzUITests.m */; };
+		76C9C3B11DE1A55100D45E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76C9C3B01DE1A55100D45E94 /* GoogleService-Info.plist */; };
+		BA04A99C93085B495EDD3996 /* libPods-Fitnessbarz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CECEEF3A84975C3A2C5C6E2F /* libPods-Fitnessbarz.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		76C9C39E1DE196CD00D45E94 /* FitnessbarzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessbarzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C9C3A21DE196CD00D45E94 /* FitnessbarzUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessbarzUITests.m; sourceTree = "<group>"; };
 		76C9C3A41DE196CD00D45E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C9C3B01DE1A55100D45E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CECEEF3A84975C3A2C5C6E2F /* libPods-Fitnessbarz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fitnessbarz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73F57AB13BD76A3F1B9F3B6 /* Pods-Fitnessbarz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitnessbarz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitnessbarz/Pods-Fitnessbarz.debug.xcconfig"; sourceTree = "<group>"; };
+		DB319C37A1872BBB4B303797 /* Pods-Fitnessbarz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitnessbarz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitnessbarz/Pods-Fitnessbarz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA04A99C93085B495EDD3996 /* libPods-Fitnessbarz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01CFC675B8E4CF9A234E4FA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D73F57AB13BD76A3F1B9F3B6 /* Pods-Fitnessbarz.debug.xcconfig */,
+				DB319C37A1872BBB4B303797 /* Pods-Fitnessbarz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50F0AADF294444383514240E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECEEF3A84975C3A2C5C6E2F /* libPods-Fitnessbarz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		76C9C36E1DE196CC00D45E94 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +111,8 @@
 				76C9C3961DE196CD00D45E94 /* FitnessbarzTests */,
 				76C9C3A11DE196CD00D45E94 /* FitnessbarzUITests */,
 				76C9C3781DE196CD00D45E94 /* Products */,
+				01CFC675B8E4CF9A234E4FA5 /* Pods */,
+				50F0AADF294444383514240E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +138,7 @@
 				76C9C38B1DE196CD00D45E94 /* LaunchScreen.storyboard */,
 				76C9C38E1DE196CD00D45E94 /* Info.plist */,
 				76C9C3861DE196CD00D45E94 /* Fitnessbarz.xcdatamodeld */,
+				76C9C3B01DE1A55100D45E94 /* GoogleService-Info.plist */,
 				76C9C37A1DE196CD00D45E94 /* Supporting Files */,
 			);
 			path = Fitnessbarz;
@@ -150,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76C9C3A71DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "Fitnessbarz" */;
 			buildPhases = (
+				CBD8EF8066376B9C1DC0F520 /* [CP] Check Pods Manifest.lock */,
 				76C9C3731DE196CC00D45E94 /* Sources */,
 				76C9C3741DE196CC00D45E94 /* Frameworks */,
 				76C9C3751DE196CC00D45E94 /* Resources */,
+				13ECA368AD7638FF389B89CC /* [CP] Embed Pods Frameworks */,
+				3CBC861D93698D4160F18227 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C9C38D1DE196CD00D45E94 /* LaunchScreen.storyboard in Resources */,
+				76C9C3B11DE1A55100D45E94 /* GoogleService-Info.plist in Resources */,
 				76C9C38A1DE196CD00D45E94 /* Assets.xcassets in Resources */,
 				76C9C3851DE196CD00D45E94 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +304,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13ECA368AD7638FF389B89CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitnessbarz/Pods-Fitnessbarz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CBC861D93698D4160F18227 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitnessbarz/Pods-Fitnessbarz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD8EF8066376B9C1DC0F520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76C9C3731DE196CC00D45E94 /* Sources */ = {
@@ -427,6 +506,7 @@
 		};
 		76C9C3A81DE196CD00D45E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73F57AB13BD76A3F1B9F3B6 /* Pods-Fitnessbarz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RJYZ49S9JJ;
@@ -442,6 +522,7 @@
 		};
 		76C9C3A91DE196CD00D45E94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB319C37A1872BBB4B303797 /* Pods-Fitnessbarz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -522,6 +603,7 @@
 				76C9C3A91DE196CD00D45E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C9C3AA1DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "FitnessbarzTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +612,7 @@
 				76C9C3AC1DE196CD00D45E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C9C3AD1DE196CD00D45E94 /* Build configuration list for PBXNativeTarget "FitnessbarzUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +621,7 @@
 				76C9C3AF1DE196CD00D45E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
