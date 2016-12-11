@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ProfileVC.h
 //  Fitnessbarz
 //
-//  Created by Charles Wang on 2016/11/20.
+//  Created by Charles Wang on 2016/12/11.
 //  Copyright © 2016年 Fitnessbarz. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ProfileVC : UIViewController
 
 @end
-

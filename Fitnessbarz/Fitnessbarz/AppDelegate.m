@@ -7,6 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabBarVC.h"
+#import "RootNavigationVC.h"
+#import "FeedVC.h"
+#import "PeopleVC.h"
+#import "WorkoutsVC.h"
+#import "NotificationsVC.h"
+#import "ProfileVC.h"
+
 @import Firebase;
 
 @interface AppDelegate ()
@@ -18,6 +26,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [FIRApp configure];
+    
+    MainTabBarVC *mainTabBarVC = [[MainTabBarVC alloc] init];
+    mainTabBarVC.tabBar.barTintColor = [UIColor blackColor];
+    mainTabBarVC.tabBar.tintColor = [UIColor whiteColor];
+    FeedVC *feedVC = [[FeedVC alloc] init];
+    feedVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMore tag:0];
+    PeopleVC *peopleVC = [[PeopleVC alloc] init];
+    peopleVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"People" image:[UIImage imageNamed:@"camera"] tag:1];
+    WorkoutsVC *workoutsVC = [[WorkoutsVC alloc] init];
+    workoutsVC.tabBarItem.title = @"Workouts";
+    NotificationsVC *notificationVC = [[NotificationsVC alloc] init];
+    notificationVC.tabBarItem.title = @"Notification";
+    ProfileVC *profileVC = [[ProfileVC alloc] init];
+    profileVC.tabBarItem.title = @"Profile";
+    
+    RootNavigationVC *feedNaviVC = [[RootNavigationVC alloc] initWithRootViewController:feedVC];
+    RootNavigationVC *peopleNaviVC = [[RootNavigationVC alloc] initWithRootViewController:peopleVC];
+    RootNavigationVC *workoutsNaviVC = [[RootNavigationVC alloc] initWithRootViewController:workoutsVC];
+    RootNavigationVC *notificationNaviVC = [[RootNavigationVC alloc] initWithRootViewController:notificationVC];
+    RootNavigationVC *profileNaviVC = [[RootNavigationVC alloc] initWithRootViewController:profileVC];
+    mainTabBarVC.viewControllers = @[feedNaviVC,
+                                     peopleNaviVC,
+                                     workoutsNaviVC,
+                                     notificationNaviVC,
+                                     profileNaviVC];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = mainTabBarVC;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
