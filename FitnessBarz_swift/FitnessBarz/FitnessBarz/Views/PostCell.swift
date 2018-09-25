@@ -1,23 +1,18 @@
 //
-//  FeedPostCell.swift
+//  PostCell.swift
 //  FitnessBarz
 //
-//  Created by Charles Wang on 2018/8/26.
+//  Created by Charles Wang on 2018/9/19.
 //  Copyright © 2018年 Charles. All rights reserved.
 //
 
 import UIKit
 
-class FeedPostCell: UITableViewCell {
-    var profileView: ProfileInfoView!
+class PostCell: UITableViewCell {
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        contentView.backgroundColor = UIColor.blue
-        contentView.layer.cornerRadius = 10
-        contentView.clipsToBounds = true
-        
-        
-        
+        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -25,5 +20,5 @@ class FeedPostCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }
