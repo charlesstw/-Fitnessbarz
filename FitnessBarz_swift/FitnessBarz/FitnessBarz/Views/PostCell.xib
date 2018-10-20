@@ -11,31 +11,31 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="233" id="KGk-i7-Jjw" customClass="PostCell" customModule="FitnessBarz" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="363" height="233"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="300" id="KGk-i7-Jjw" customClass="PostCell" customModule="FitnessBarz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="300"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="363" height="232.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="344" height="299.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Vu-gq-0Bt" customClass="ProfileInfoView" customModule="FitnessBarz" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="363" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="344" height="50"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="50" id="srh-pK-zNA"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xh-P0-2ea">
-                        <rect key="frame" x="0.0" y="50" width="363" height="151"/>
+                        <rect key="frame" x="0.0" y="50" width="344" height="209.5"/>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wz7-qw-VV3">
-                        <rect key="frame" x="317" y="202" width="46" height="30"/>
+                        <rect key="frame" x="298" y="269.5" width="46" height="30"/>
                         <state key="normal" title="Button"/>
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="1xh-P0-2ea" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.65" id="2S8-8T-hq5"/>
+                    <constraint firstItem="1xh-P0-2ea" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.7" id="2S8-8T-hq5"/>
                     <constraint firstAttribute="bottom" secondItem="wz7-qw-VV3" secondAttribute="bottom" id="6yd-vJ-OTI"/>
                     <constraint firstItem="1xh-P0-2ea" firstAttribute="top" secondItem="2Vu-gq-0Bt" secondAttribute="bottom" id="9uM-G3-KTw"/>
                     <constraint firstAttribute="trailing" secondItem="2Vu-gq-0Bt" secondAttribute="trailing" id="C2X-16-XkJ"/>
@@ -47,7 +47,10 @@
                     <constraint firstAttribute="trailing" secondItem="wz7-qw-VV3" secondAttribute="trailing" id="u3N-Ly-bMU"/>
                 </constraints>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="11.5" y="25.5"/>
+            <connections>
+                <outlet property="profielInfoView" destination="2Vu-gq-0Bt" id="wc3-5q-mlI"/>
+            </connections>
+            <point key="canvasLocation" x="2" y="59"/>
         </tableViewCell>
     </objects>
 </document>

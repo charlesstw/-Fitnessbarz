@@ -13,6 +13,7 @@
 		764584C32132926B00DBE853 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584C22132926B00DBE853 /* ProfileInfoView.swift */; };
 		764C959021529FB6007D1B79 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C958E21529FB6007D1B79 /* PostCell.swift */; };
 		764C959121529FB6007D1B79 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764C958F21529FB6007D1B79 /* PostCell.xib */; };
+		7673C7AB21594BC00084C1E0 /* fnbz_logo_80.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7673C7AA21594A930084C1E0 /* fnbz_logo_80.jpeg */; };
 		76AF03E12132785400775457 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF03E02132785400775457 /* RootNavigationController.swift */; };
 		76AF03E62132791D00775457 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF03E52132791D00775457 /* FeedVC.swift */; };
 		76AF03E82132792A00775457 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF03E72132792A00775457 /* ProfileVC.swift */; };
@@ -58,6 +59,7 @@
 		764584C22132926B00DBE853 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
 		764C958E21529FB6007D1B79 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		764C958F21529FB6007D1B79 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		7673C7AA21594A930084C1E0 /* fnbz_logo_80.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fnbz_logo_80.jpeg; path = Assets.xcassets/AppIcon.appiconset/fnbz_logo_80.jpeg; sourceTree = "<group>"; };
 		76AF03DF2132782D00775457 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		76AF03E02132785400775457 /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
 		76AF03E52132791D00775457 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				76EB4EDB21288EB900053286 /* Main.storyboard */,
 				76EB4EE121288EB900053286 /* Assets.xcassets */,
 				76EB4EE321288EB900053286 /* LaunchScreen.storyboard */,
+				7673C7AA21594A930084C1E0 /* fnbz_logo_80.jpeg */,
 				76EB4EE621288EB900053286 /* Info.plist */,
 				76EB4EDE21288EB900053286 /* FitnessBarz.xcdatamodeld */,
 			);
@@ -388,6 +391,7 @@
 				76EB4EE221288EB900053286 /* Assets.xcassets in Resources */,
 				764C959121529FB6007D1B79 /* PostCell.xib in Resources */,
 				76EB4EDD21288EB900053286 /* Main.storyboard in Resources */,
+				7673C7AB21594BC00084C1E0 /* fnbz_logo_80.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

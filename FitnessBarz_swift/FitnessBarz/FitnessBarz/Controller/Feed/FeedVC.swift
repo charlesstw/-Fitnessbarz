@@ -44,9 +44,15 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath)
-
-       return cell
+        var cell:PostCell? = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath) as? PostCell
+        if (cell == nil) {
+            cell = PostCell()
+            
+        }
+        let userImage = UIImage(named:"fnbz_logo_80.jpeg")
+        cell?.profielInfoView.setUser(userImage:userImage!, userName: "test")
+        
+        return cell!
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
