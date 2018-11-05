@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		56365E4B2136ABB2000897F3 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56365E4A2136ABB2000897F3 /* FirebaseManager.swift */; };
+		56631F6A218EE246002EAC17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56631F69218EE246002EAC17 /* GoogleService-Info.plist */; };
+		56631F6C218FDDB9002EAC17 /* FitnessBarzDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56631F6B218FDDB9002EAC17 /* FitnessBarzDB.swift */; };
+		56631F80218FEA34002EAC17 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56631F7E218FEA34002EAC17 /* User+CoreDataClass.swift */; };
+		56631F81218FEA34002EAC17 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56631F7F218FEA34002EAC17 /* User+CoreDataProperties.swift */; };
+		56631F82218FEEBA002EAC17 /* FitnessBarzDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56631F6B218FDDB9002EAC17 /* FitnessBarzDB.swift */; };
+		56631F83218FEEBA002EAC17 /* FitnessBarzDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56631F6B218FDDB9002EAC17 /* FitnessBarzDB.swift */; };
+		56631F84218FEEC7002EAC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB4ED721288EB900053286 /* AppDelegate.swift */; };
+		56631F85218FEEC8002EAC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB4ED721288EB900053286 /* AppDelegate.swift */; };
+		56631F87218FEEE9002EAC17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56631F86218FEEE9002EAC17 /* CoreData.framework */; };
 		764584C0213291A800DBE853 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584BF2132919300DBE853 /* Utils.swift */; };
 		764584C1213291AB00DBE853 /* FeedPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584BD2132919300DBE853 /* FeedPostCell.swift */; };
 		764584C32132926B00DBE853 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584C22132926B00DBE853 /* ProfileInfoView.swift */; };
@@ -54,6 +63,11 @@
 		2D6ECE34DBD7F5A69590106D /* Pods-FitnessBarzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessBarzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessBarzTests/Pods-FitnessBarzTests.debug.xcconfig"; sourceTree = "<group>"; };
 		398D63F565B0BE1EFC7FD735 /* Pods_FitnessBarzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnessBarzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56365E4A2136ABB2000897F3 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		56631F69218EE246002EAC17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "FitnessBarz/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56631F6B218FDDB9002EAC17 /* FitnessBarzDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessBarzDB.swift; sourceTree = "<group>"; };
+		56631F7E218FEA34002EAC17 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		56631F7F218FEA34002EAC17 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		56631F86218FEEE9002EAC17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		764584BD2132919300DBE853 /* FeedPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostCell.swift; sourceTree = "<group>"; };
 		764584BF2132919300DBE853 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		764584C22132926B00DBE853 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
@@ -92,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56631F87218FEEE9002EAC17 /* CoreData.framework in Frameworks */,
 				BB1FB4EDA60B627E064AA4D0 /* Pods_FitnessBarz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				56365E4A2136ABB2000897F3 /* FirebaseManager.swift */,
+				56631F6B218FDDB9002EAC17 /* FitnessBarzDB.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -140,6 +156,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		56631F6D218FE32D002EAC17 /* CoreDataClass */ = {
+			isa = PBXGroup;
+			children = (
+				56631F7E218FEA34002EAC17 /* User+CoreDataClass.swift */,
+				56631F7F218FEA34002EAC17 /* User+CoreDataProperties.swift */,
+			);
+			path = CoreDataClass;
+			sourceTree = "<group>";
+		};
 		6777E33474AC24104B2C6761 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +181,7 @@
 		7608DC613D93AF26571D4DE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56631F86218FEEE9002EAC17 /* CoreData.framework */,
 				C8BEA408548B814B9758BF30 /* Pods_FitnessBarz.framework */,
 				398D63F565B0BE1EFC7FD735 /* Pods_FitnessBarzTests.framework */,
 				F79D3D8041DD59CF5186D883 /* Pods_FitnessBarzUITests.framework */,
@@ -218,6 +244,7 @@
 		76EB4ECB21288EB900053286 = {
 			isa = PBXGroup;
 			children = (
+				56631F69218EE246002EAC17 /* GoogleService-Info.plist */,
 				76EB4ED621288EB900053286 /* FitnessBarz */,
 				76EB4EEE21288EB900053286 /* FitnessBarzTests */,
 				76EB4EF921288EBA00053286 /* FitnessBarzUITests */,
@@ -247,6 +274,7 @@
 				56365E4C2136ABF8000897F3 /* Model */,
 				764584BC2132919300DBE853 /* Views */,
 				56365E4F2136AC31000897F3 /* Controller */,
+				56631F6D218FE32D002EAC17 /* CoreDataClass */,
 				76EB4ED921288EB900053286 /* ViewController.swift */,
 				76EB4EDB21288EB900053286 /* Main.storyboard */,
 				76EB4EE121288EB900053286 /* Assets.xcassets */,
@@ -392,6 +420,7 @@
 				764C959121529FB6007D1B79 /* PostCell.xib in Resources */,
 				76EB4EDD21288EB900053286 /* Main.storyboard in Resources */,
 				7673C7AB21594BC00084C1E0 /* fnbz_logo_80.jpeg in Resources */,
+				56631F6A218EE246002EAC17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,9 +530,11 @@
 			files = (
 				56365E4B2136ABB2000897F3 /* FirebaseManager.swift in Sources */,
 				76AF03EA2132793800775457 /* WorkoutsVC.swift in Sources */,
+				56631F81218FEA34002EAC17 /* User+CoreDataProperties.swift in Sources */,
 				76AF03E82132792A00775457 /* ProfileVC.swift in Sources */,
 				764584C0213291A800DBE853 /* Utils.swift in Sources */,
 				764584C32132926B00DBE853 /* ProfileInfoView.swift in Sources */,
+				56631F6C218FDDB9002EAC17 /* FitnessBarzDB.swift in Sources */,
 				76AF03EB21327AA900775457 /* MainTabBarController.swift in Sources */,
 				76EB4EDA21288EB900053286 /* ViewController.swift in Sources */,
 				764584C1213291AB00DBE853 /* FeedPostCell.swift in Sources */,
@@ -512,6 +543,7 @@
 				76EB4ED821288EB900053286 /* AppDelegate.swift in Sources */,
 				76EB4EE021288EB900053286 /* FitnessBarz.xcdatamodeld in Sources */,
 				764C959021529FB6007D1B79 /* PostCell.swift in Sources */,
+				56631F80218FEA34002EAC17 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +551,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56631F84218FEEC7002EAC17 /* AppDelegate.swift in Sources */,
 				76EB4EF021288EB900053286 /* FitnessBarzTests.swift in Sources */,
+				56631F82218FEEBA002EAC17 /* FitnessBarzDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +561,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56631F85218FEEC8002EAC17 /* AppDelegate.swift in Sources */,
 				76EB4EFB21288EBA00053286 /* FitnessBarzUITests.swift in Sources */,
+				56631F83218FEEBA002EAC17 /* FitnessBarzDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

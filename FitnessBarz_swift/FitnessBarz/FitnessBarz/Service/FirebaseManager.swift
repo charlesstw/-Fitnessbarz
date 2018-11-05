@@ -9,5 +9,9 @@
 import UIKit
 
 class FirebaseManager: NSObject {
-
+    static let shared: FirebaseManager = {
+        let singleton = FirebaseManager()
+        
+        return singleton
+    }()
 }
