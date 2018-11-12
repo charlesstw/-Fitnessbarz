@@ -17,6 +17,11 @@
 		56631F84218FEEC7002EAC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB4ED721288EB900053286 /* AppDelegate.swift */; };
 		56631F85218FEEC8002EAC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB4ED721288EB900053286 /* AppDelegate.swift */; };
 		56631F87218FEEE9002EAC17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56631F86218FEEE9002EAC17 /* CoreData.framework */; };
+		56726D6B21982CA300659989 /* fnbz_logo_40.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 56726D6A21982CA300659989 /* fnbz_logo_40.jpeg */; };
+		56726D6D21982D5C00659989 /* fnbz_logo_60.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 56726D6C21982D5C00659989 /* fnbz_logo_60.jpeg */; };
+		56726D7021982ED400659989 /* WorkoutListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56726D6E21982ED400659989 /* WorkoutListCell.swift */; };
+		56726D7121982ED400659989 /* WorkoutListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56726D6F21982ED400659989 /* WorkoutListCell.xib */; };
+		56726D732198325500659989 /* View+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56726D722198325500659989 /* View+cornerRadius.swift */; };
 		764584C0213291A800DBE853 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584BF2132919300DBE853 /* Utils.swift */; };
 		764584C1213291AB00DBE853 /* FeedPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584BD2132919300DBE853 /* FeedPostCell.swift */; };
 		764584C32132926B00DBE853 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584C22132926B00DBE853 /* ProfileInfoView.swift */; };
@@ -68,6 +73,11 @@
 		56631F7E218FEA34002EAC17 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		56631F7F218FEA34002EAC17 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		56631F86218FEEE9002EAC17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		56726D6A21982CA300659989 /* fnbz_logo_40.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fnbz_logo_40.jpeg; path = Assets.xcassets/AppIcon.appiconset/fnbz_logo_40.jpeg; sourceTree = "<group>"; };
+		56726D6C21982D5C00659989 /* fnbz_logo_60.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fnbz_logo_60.jpeg; path = Assets.xcassets/AppIcon.appiconset/fnbz_logo_60.jpeg; sourceTree = "<group>"; };
+		56726D6E21982ED400659989 /* WorkoutListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListCell.swift; sourceTree = "<group>"; };
+		56726D6F21982ED400659989 /* WorkoutListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutListCell.xib; sourceTree = "<group>"; };
+		56726D722198325500659989 /* View+cornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+cornerRadius.swift"; sourceTree = "<group>"; };
 		764584BD2132919300DBE853 /* FeedPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostCell.swift; sourceTree = "<group>"; };
 		764584BF2132919300DBE853 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		764584C22132926B00DBE853 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
@@ -196,6 +206,9 @@
 				764C958E21529FB6007D1B79 /* PostCell.swift */,
 				764C958F21529FB6007D1B79 /* PostCell.xib */,
 				764584C22132926B00DBE853 /* ProfileInfoView.swift */,
+				56726D6E21982ED400659989 /* WorkoutListCell.swift */,
+				56726D6F21982ED400659989 /* WorkoutListCell.xib */,
+				56726D722198325500659989 /* View+cornerRadius.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,6 +293,8 @@
 				76EB4EE121288EB900053286 /* Assets.xcassets */,
 				76EB4EE321288EB900053286 /* LaunchScreen.storyboard */,
 				7673C7AA21594A930084C1E0 /* fnbz_logo_80.jpeg */,
+				56726D6C21982D5C00659989 /* fnbz_logo_60.jpeg */,
+				56726D6A21982CA300659989 /* fnbz_logo_40.jpeg */,
 				76EB4EE621288EB900053286 /* Info.plist */,
 				76EB4EDE21288EB900053286 /* FitnessBarz.xcdatamodeld */,
 			);
@@ -417,9 +432,12 @@
 			files = (
 				76EB4EE521288EB900053286 /* LaunchScreen.storyboard in Resources */,
 				76EB4EE221288EB900053286 /* Assets.xcassets in Resources */,
+				56726D7121982ED400659989 /* WorkoutListCell.xib in Resources */,
+				56726D6D21982D5C00659989 /* fnbz_logo_60.jpeg in Resources */,
 				764C959121529FB6007D1B79 /* PostCell.xib in Resources */,
 				76EB4EDD21288EB900053286 /* Main.storyboard in Resources */,
 				7673C7AB21594BC00084C1E0 /* fnbz_logo_80.jpeg in Resources */,
+				56726D6B21982CA300659989 /* fnbz_logo_40.jpeg in Resources */,
 				56631F6A218EE246002EAC17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,10 +547,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				56365E4B2136ABB2000897F3 /* FirebaseManager.swift in Sources */,
+				56726D732198325500659989 /* View+cornerRadius.swift in Sources */,
 				76AF03EA2132793800775457 /* WorkoutsVC.swift in Sources */,
 				56631F81218FEA34002EAC17 /* User+CoreDataProperties.swift in Sources */,
 				76AF03E82132792A00775457 /* ProfileVC.swift in Sources */,
 				764584C0213291A800DBE853 /* Utils.swift in Sources */,
+				56726D7021982ED400659989 /* WorkoutListCell.swift in Sources */,
 				764584C32132926B00DBE853 /* ProfileInfoView.swift in Sources */,
 				56631F6C218FDDB9002EAC17 /* FitnessBarzDB.swift in Sources */,
 				76AF03EB21327AA900775457 /* MainTabBarController.swift in Sources */,
@@ -715,12 +735,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RJYZ49S9JJ;
 				INFOPLIST_FILE = FitnessBarz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chalres.FitnessBarz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = CharlesDevAll;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

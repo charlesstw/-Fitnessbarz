@@ -7,11 +7,22 @@
 //
 
 import UIKit
+import Firebase
 
 class FirebaseManager: NSObject {
+    let ref : DatabaseReference!
     static let shared: FirebaseManager = {
         let singleton = FirebaseManager()
         
         return singleton
     }()
+    
+    override init() {
+        ref = Database.database().reference()
+    }
+    
+    func writeData(json:Dictionary<String, Any>) {
+        
+    }
+    
 }

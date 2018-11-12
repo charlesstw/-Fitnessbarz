@@ -15,9 +15,10 @@ class MainTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        feedVC.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 0)
-        workoutsVC.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 1)
-        profileVC.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 2)
+        let image = UIImage(named: "fnbz_logo_40.jpeg")
+        feedVC.tabBarItem = UITabBarItem(title: "Post", image: image?.withRenderingMode(.alwaysOriginal), tag: 0)
+        workoutsVC.tabBarItem = UITabBarItem(title: "Workout", image: UIImage.init(named: "fnbz_logo_40"), tag: 1)
+        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage.init(named: "fnbz_logo_40"), tag: 2)
         let tabBarList = [feedVC,workoutsVC,profileVC]
         self.viewControllers = tabBarList
     }
