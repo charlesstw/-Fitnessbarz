@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReadyToStartVC" customModule="FitnessBarz" customModuleProvider="target">
+            <connections>
+                <outlet property="mainTableView" destination="Sxp-hS-adR" id="p4g-GT-Ocf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sxp-hS-adR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="huJ-Eq-Nzh"/>
+                        <outlet property="delegate" destination="-1" id="871-Y8-Qbw"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pjf-0B-zCT">
+                    <rect key="frame" x="50" y="608" width="275" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Pjf-0B-zCT" secondAttribute="bottom" constant="29" id="8Jz-K1-sgU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Pjf-0B-zCT" secondAttribute="trailing" constant="50" id="8xW-nV-WDd"/>
+                <constraint firstItem="Sxp-hS-adR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Bz9-GH-pBU"/>
+                <constraint firstAttribute="trailing" secondItem="Sxp-hS-adR" secondAttribute="trailing" id="HZU-Wo-ZTx"/>
+                <constraint firstItem="Sxp-hS-adR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Rmu-CT-lak"/>
+                <constraint firstItem="Pjf-0B-zCT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="d3w-yq-nWm"/>
+                <constraint firstItem="Pjf-0B-zCT" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="jT1-xi-hHY"/>
+                <constraint firstItem="Sxp-hS-adR" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="t2f-d1-UBO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-41" y="106"/>
+        </view>
+    </objects>
+</document>

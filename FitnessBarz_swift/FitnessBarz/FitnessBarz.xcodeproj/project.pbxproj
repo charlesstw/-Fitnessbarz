@@ -22,6 +22,12 @@
 		56726D7021982ED400659989 /* WorkoutListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56726D6E21982ED400659989 /* WorkoutListCell.swift */; };
 		56726D7121982ED400659989 /* WorkoutListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56726D6F21982ED400659989 /* WorkoutListCell.xib */; };
 		56726D732198325500659989 /* View+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56726D722198325500659989 /* View+cornerRadius.swift */; };
+		56AF878321A159D100BF2F3A /* ReadyToStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AF878121A159D100BF2F3A /* ReadyToStartVC.swift */; };
+		56AF878421A159D100BF2F3A /* ReadyToStartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AF878221A159D100BF2F3A /* ReadyToStartVC.xib */; };
+		56CB108521A41EA300FAA9FA /* InfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB108421A41EA300FAA9FA /* InfoHeaderView.swift */; };
+		56CB108721A4EEF000FAA9FA /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB108621A4EEEF00FAA9FA /* UIViewExtension.swift */; };
+		56CB108921A4EFBA00FAA9FA /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB108821A4EFBA00FAA9FA /* NibView.swift */; };
+		56CB108B21A4F1D400FAA9FA /* InfoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CB108A21A4F1D400FAA9FA /* InfoHeaderView.xib */; };
 		764584C0213291A800DBE853 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584BF2132919300DBE853 /* Utils.swift */; };
 		764584C1213291AB00DBE853 /* FeedPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584BD2132919300DBE853 /* FeedPostCell.swift */; };
 		764584C32132926B00DBE853 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764584C22132926B00DBE853 /* ProfileInfoView.swift */; };
@@ -78,6 +84,12 @@
 		56726D6E21982ED400659989 /* WorkoutListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListCell.swift; sourceTree = "<group>"; };
 		56726D6F21982ED400659989 /* WorkoutListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutListCell.xib; sourceTree = "<group>"; };
 		56726D722198325500659989 /* View+cornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+cornerRadius.swift"; sourceTree = "<group>"; };
+		56AF878121A159D100BF2F3A /* ReadyToStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyToStartVC.swift; sourceTree = "<group>"; };
+		56AF878221A159D100BF2F3A /* ReadyToStartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadyToStartVC.xib; sourceTree = "<group>"; };
+		56CB108421A41EA300FAA9FA /* InfoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHeaderView.swift; sourceTree = "<group>"; };
+		56CB108621A4EEEF00FAA9FA /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		56CB108821A4EFBA00FAA9FA /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		56CB108A21A4F1D400FAA9FA /* InfoHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoHeaderView.xib; sourceTree = "<group>"; };
 		764584BD2132919300DBE853 /* FeedPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostCell.swift; sourceTree = "<group>"; };
 		764584BF2132919300DBE853 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		764584C22132926B00DBE853 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
@@ -208,7 +220,11 @@
 				764584C22132926B00DBE853 /* ProfileInfoView.swift */,
 				56726D6E21982ED400659989 /* WorkoutListCell.swift */,
 				56726D6F21982ED400659989 /* WorkoutListCell.xib */,
+				56CB108421A41EA300FAA9FA /* InfoHeaderView.swift */,
+				56CB108A21A4F1D400FAA9FA /* InfoHeaderView.xib */,
 				56726D722198325500659989 /* View+cornerRadius.swift */,
+				56CB108621A4EEEF00FAA9FA /* UIViewExtension.swift */,
+				56CB108821A4EFBA00FAA9FA /* NibView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				76AF03E92132793800775457 /* WorkoutsVC.swift */,
+				56AF878121A159D100BF2F3A /* ReadyToStartVC.swift */,
+				56AF878221A159D100BF2F3A /* ReadyToStartVC.xib */,
 			);
 			path = Workouts;
 			sourceTree = "<group>";
@@ -432,9 +450,11 @@
 			files = (
 				76EB4EE521288EB900053286 /* LaunchScreen.storyboard in Resources */,
 				76EB4EE221288EB900053286 /* Assets.xcassets in Resources */,
+				56AF878421A159D100BF2F3A /* ReadyToStartVC.xib in Resources */,
 				56726D7121982ED400659989 /* WorkoutListCell.xib in Resources */,
 				56726D6D21982D5C00659989 /* fnbz_logo_60.jpeg in Resources */,
 				764C959121529FB6007D1B79 /* PostCell.xib in Resources */,
+				56CB108B21A4F1D400FAA9FA /* InfoHeaderView.xib in Resources */,
 				76EB4EDD21288EB900053286 /* Main.storyboard in Resources */,
 				7673C7AB21594BC00084C1E0 /* fnbz_logo_80.jpeg in Resources */,
 				56726D6B21982CA300659989 /* fnbz_logo_40.jpeg in Resources */,
@@ -546,6 +566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AF878321A159D100BF2F3A /* ReadyToStartVC.swift in Sources */,
 				56365E4B2136ABB2000897F3 /* FirebaseManager.swift in Sources */,
 				56726D732198325500659989 /* View+cornerRadius.swift in Sources */,
 				76AF03EA2132793800775457 /* WorkoutsVC.swift in Sources */,
@@ -560,8 +581,11 @@
 				764584C1213291AB00DBE853 /* FeedPostCell.swift in Sources */,
 				76AF03E12132785400775457 /* RootNavigationController.swift in Sources */,
 				76AF03E62132791D00775457 /* FeedVC.swift in Sources */,
+				56CB108521A41EA300FAA9FA /* InfoHeaderView.swift in Sources */,
+				56CB108921A4EFBA00FAA9FA /* NibView.swift in Sources */,
 				76EB4ED821288EB900053286 /* AppDelegate.swift in Sources */,
 				76EB4EE021288EB900053286 /* FitnessBarz.xcdatamodeld in Sources */,
+				56CB108721A4EEF000FAA9FA /* UIViewExtension.swift in Sources */,
 				764C959021529FB6007D1B79 /* PostCell.swift in Sources */,
 				56631F80218FEA34002EAC17 /* User+CoreDataClass.swift in Sources */,
 			);
@@ -737,6 +761,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = RJYZ49S9JJ;
 				INFOPLIST_FILE = FitnessBarz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chalres.FitnessBarz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -751,13 +776,15 @@
 			baseConfigurationReference = 111A064EE484A2087624BDC6 /* Pods-FitnessBarz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = RJYZ49S9JJ;
 				INFOPLIST_FILE = FitnessBarz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chalres.FitnessBarz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = CharlesADHocAll;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
